@@ -11,6 +11,7 @@ on:
   push:
     branches:
       - develop
+      - fix/build-pipeline
 
 jobs:
   build-android-apk:
